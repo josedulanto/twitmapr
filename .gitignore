@@ -16,3 +16,5 @@
 
 # Ignore the Twitter initializer, it contains my app secret tokens
 /config/initializers/twitter.rb
+# Ignore application configuration
+/config/application.yml

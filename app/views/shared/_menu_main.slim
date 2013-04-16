@@ -22,7 +22,7 @@
 			#search.nav.pull-right
 				= form_for :search, url: { action: 'search' }, html: {class: 'form-search', id: 'form-search'}, method: :get do |f|
 					.input-append
-						= f.text_field :q, class: 'search-query span2', placeholder: '#lechon', value: params[:q]
-						= link_to 'Buscar cerca de mi', '#', class: 'btn', onclick: 'javascript:searchTwitter()'
+						= f.text_field :q, class: 'search-query span2', placeholder: '#twitter', value: params[:q]
+						= link_to 'Buscar', '#', class: 'btn', onclick: 'javascript:searchTwitter()'
       /! /.nav-collapse
   /! /navbar-inner

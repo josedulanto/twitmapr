@@ -45,6 +45,9 @@ GEM
       multi_json (~> 1.0)
     faraday (0.8.7)
       multipart-post (~> 1.1)
+    figaro (0.6.3)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     gmaps4rails (1.5.6)
     gon (4.1.0)
       actionpack (>= 2.3.0)
@@ -158,6 +161,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  figaro
   gmaps4rails
   gon
   jquery-rails
