@@ -1,0 +1,77 @@
+.alert.alert-info
+	button type="button" class="close" data-dismiss="alert" &times;
+	h4 Instrucciones
+	ul
+		li Cerca de mi: Clic en el botón 'Buscar cerca de mi'.
+		li Explorar: Desliza el mapa hacia la región que desees.
+	p
+		strong=' "NOTA:"
+		span Para filtrar sobre un tema en especifico escribelo en la caja de texto.
+	p
+		strong=' "IMPORTANTE:"
+		span Limitamos la búsqueda a 10km desde el centro del mapa y a los 50 tweets mas recientes. Iniciamos con la búsqueda de la palabra "twitter".
+
+/ =@markers.to_json
+
+- if @tweets.present?
+	/ = debug @tweets
+	
+	= gmaps(map_options: {center_latitude: '19.43261',center_longitude: '-99.13321', auto_adjust: false, zoom: 12}, markers: { data: markers(@tweets).to_json })
+	/ - @tweets.map do |s|
+	/ 	= "#{s.from_user}: #{s.text} (#{s.geo.coordinates})"
+	/ 	hr
+
+
+= content_for :scripts do
+	coffee:
+		Gmaps.map.callback = () ->
+
+			window.searchTwitter = () ->
+				center = Gmaps.map.map.getBounds().getCenter()
+				$.ajax
+					url: '/search.js'
+					data:
+						q: $('.search-query').val()
+						lat: center.lat()
+						lng: center.lng()
+					dataType: 'script'
+				return
+
+			google.maps.event.addListenerOnce Gmaps.map.serviceObject, 'idle', () -> 
+     			# Try HTML5 geolocation
+				if(navigator.geolocation)
+					navigator.geolocation.getCurrentPosition(
+						(position) ->
+							pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+							# alert(position.coords.latitude+', '+position.coords.longitude)
+							# alert(map)
+							Gmaps.map.map.setCenter(pos)
+							searchTwitter()
+							return
+						,() ->
+							handleNoGeolocation(true)
+							return
+						)
+				else
+					# Browser doesn't support Geolocation
+					handleNoGeolocation(false)
+					return
+
+				handleNoGeolocation = (errorFlag) ->
+					if (errorFlag)
+						content = 'Error: The Geolocation service failed.'
+					else
+						content = 'Error: Your browser doesn\'t support geolocation.'
+
+					options = { map: map, position: new google.maps.LatLng(60, 105), content: content}
+
+					infowindow = new google.maps.InfoWindow(options)
+					Gmaps.map.map.setCenter(options.position)
+					return
+     			return
+
+			google.maps.event.addListener Gmaps.map.serviceObject, 'dragend', () ->
+				#updateFormLocation this.getPosition()
+				#alert(s.text for s in gon.statuses)
+				searchTwitter()
+			return

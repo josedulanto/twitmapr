@@ -1,0 +1,8 @@
+$(document).ready(function(){
+	<%- if @tweets.present? %>
+		var data = <%= raw markers(@tweets).to_json %>;
+		return Gmaps.map.replaceMarkers(data);
+	<%- else %>
+		# alert('No existen tweets con esas palabras, prueba con otra.')
+	<%- end %>
+})

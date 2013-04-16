@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		title Twitmapr - Geolocalize any twit!
+		= stylesheet_link_tag 'application', media: 'all'
+		= stylesheet_link_tag 'gmaps4rails'
+		= javascript_include_tag 'application'
+		= include_gon
+		= csrf_meta_tags
+
+	body
+		= render 'shared/menu_main'
+		.container-fluid
+			.row-fluid
+				.span12= yield
+			hr
+			footer
+				| Copyright 2013 &copy; José Dulanto
+				= yield :scripts
