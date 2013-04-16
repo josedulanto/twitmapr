@@ -4,7 +4,7 @@ Geolocalize twits around you and the globe
 
 ## Setup
 
-1. Create a file 'application.yml' in app/config and paste this code, replace CODE_HERE with your Twitter application values.
+Create a file 'application.yml' in app/config and paste this code, replace CODE_HERE with your Twitter application values.
 
 ```yaml
 TWITTER_CONSUMER_KEY: CODE_HERE
@@ -13,7 +13,8 @@ TWITTER_OAUTH_TOKEN: CODE_HERE
 TWITTER_OAUTH_TOKEN_SECRET: CODE_HERE
 ```
 
-2. Use webrick to run the server or use thin server
+Use webrick to run the server or use thin server
+
 ```ruby
 rails s thin
 ```
