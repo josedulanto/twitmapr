@@ -21,4 +21,4 @@ rails s thin
 
 ## Usage
 
-Follow on-screen instruction once the application is running
+Follow on-screen instructions once the application is running
