@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 josedulanto/twitmapr is built on the following main stack:
+
 - [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Heroku](https://www.heroku.com) – Platform as a Service
 - [Ruby](https://www.ruby-lang.org) – Languages
@@ -15,11 +16,13 @@ josedulanto/twitmapr is built on the following main stack:
 - [Simple Form](https://github.com/plataformatec/simple_form) – Web Forms
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 josedulanto/twitmapr is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/service/133/3wgIDj3j.png' alt='Heroku'/> [Heroku](https://www.heroku.com) – Platform as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
@@ -33,14 +36,15 @@ josedulanto/twitmapr is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/4124/simple1.png' alt='Simple Form'/> [Simple Form](https://github.com/plataformatec/simple_form) – Web Forms
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [josedulanto/twitmapr](https://github.com/josedulanto/twitmapr)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|30<br/>Tools used|11/09/23 <br/>Report generated|
+|30<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -219,10 +223,10 @@ Full tech stack [here](/techstack.md)
 |[therubyracer](https://rubygems.org/therubyracer)|v0.11.4|04/16/13|josedulanto |MIT|N/A|
 |[thin](https://rubygems.org/thin)|v1.5.1|04/16/13|josedulanto |GPL-2.0+,Ruby|N/A|
 |[twitter](https://rubygems.org/twitter)|v4.6.2|04/16/13|josedulanto |MIT|N/A|
-|[twitter-bootstrap-rails](https://rubygems.org/twitter-bootstrap-rails)|v2.2.6|04/16/13|josedulanto |MIT|[CVE-2014-4920](https://github.com/advisories/GHSA-vpqv-mqvc-pcx2) (Moderate)|
+|[twitter-bootstrap-rails](https://rubygems.org/twitter-bootstrap-rails)|v2.2.6|04/16/13|josedulanto |MIT|[CVE-2019-8331](https://github.com/advisories/GHSA-9v3m-8fp8-mj99) (Moderate)<br/>[CVE-2014-4920](https://github.com/advisories/GHSA-vpqv-mqvc-pcx2) (Moderate)|
 |[uglifier](https://rubygems.org/uglifier)|v2.0.1|04/16/13|josedulanto |MIT|[CVE-2015-8857](https://github.com/advisories/GHSA-34r7-q49f-h37c) (Critical)|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
