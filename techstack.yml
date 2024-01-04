@@ -1,7 +1,8 @@
 repo_name: josedulanto/twitmapr
 report_id: af480aa05504f8e0c845c0222fed6b5d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:21:31+00:00'
+timestamp: '2024-01-04T15:01:47+00:00'
 requested_by: josedulanto
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/josedulanto/twitmapr
   detection_source: Repo Metadata
 - name: CoffeeScript
   description: A little language that compiles into JavaScript
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/josedulanto/twitmapr
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/josedulanto/twitmapr
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/josedulanto/twitmapr
   detection_source: Repo Metadata
 - name: Rails
   description: Web development that doesn't hurt
@@ -56,7 +61,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/990/x57_Lorv.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -69,6 +74,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -80,6 +86,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -92,6 +99,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -103,6 +111,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/josedulanto/twitmapr
   detection_source: Repo Metadata
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
@@ -112,6 +121,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -124,6 +134,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -135,6 +146,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/config/environments/production.rb
   detection_source: config/environments/production.rb
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -149,7 +161,7 @@ tools:
   category: Application Utilities
   sub_category: Web Forms
   image_url: https://img.stackshare.io/service/4124/simple1.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -159,6 +171,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2466/twitterdev_gear.png
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -170,6 +183,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -183,7 +197,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18896/default_9386886dd1c6c396a11bd4b49732afb9ec444f8d.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -197,7 +211,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19607/default_ad0710c65b106932707389deb3b2e0b93a1ef7b6.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 22:49:23.000000000 Z
@@ -212,7 +226,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -269,7 +283,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19283/default_8c6b3854ff6d944252da77d1046a09badb8cdcb8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -283,7 +297,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -297,7 +311,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19540/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -311,7 +325,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -325,7 +339,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18988/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -346,7 +360,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19238/default_c4ed1d3f735f11415ee5d02b5a5ba48490465220.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -361,7 +375,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:35:11.000000000 Z
@@ -375,7 +389,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19004/default_b93931146bf44c92297cef24be9c35899def9938.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -389,7 +403,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18900/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -403,7 +417,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19017/default_4a7d337d343ba3aa0e0f5fbe745cfb34afef4187.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
@@ -418,11 +432,17 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19366/default_544371232e3f9706f6feabcb8c4d5d5856e26498.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
   vulnerabilities:
+  - name: Bootstrap Vulnerable to Cross-Site Scripting
+    cve_id: CVE-2019-8331
+    cve_url: https://github.com/advisories/GHSA-9v3m-8fp8-mj99
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 
   - name: Reflective Cross-site Scripting Vulnerability in twitter-bootstrap-rails
     cve_id: CVE-2014-4920
     cve_url: https://github.com/advisories/GHSA-vpqv-mqvc-pcx2
@@ -440,7 +460,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/josedulanto/twitmapr/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: josedulanto
   last_updated_on: 2013-04-16 21:13:16.000000000 Z
